@@ -1,0 +1,23 @@
+{
+  "name": "purpleobject/factuursturen-laravel",
+  "description": "Easy connection with the factuursturen.nl API",
+  "keywords": ["API", "factuursturen.nl", "laravel", "invoice"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Erik Mank",
+      "email": "erik@purpleobject.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "^6.1",
+    "illuminate/support": "5.1.*|5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PurpleObject\\Factuursturen\\": "src/"
+    }
+  }
+}
