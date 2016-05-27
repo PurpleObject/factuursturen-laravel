@@ -317,7 +317,6 @@ class FactuurSturen
                 break;
 
             default:
-
                 $response = $this
                     ->client
                     ->get($endpoint, ['auth' => $this->auth]
