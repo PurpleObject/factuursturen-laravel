@@ -9,6 +9,6 @@ class FactuurSturen extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'transfer';
+        return 'factuursturen';
     }
 }
